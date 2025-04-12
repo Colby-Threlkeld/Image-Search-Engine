@@ -8,7 +8,7 @@ A simple image search web app powered by the Unsplash API.
 - Built from scratch using HTML, CSS, and JavaScript
 
 ## Live Demo
-[Check it out on Netlify](https://your-site.netlify.app)
+[Check it out on Netlify](https://colbysimagebrowser.netlify.app/)
 
 ## How to Run
 1. Clone this repo
