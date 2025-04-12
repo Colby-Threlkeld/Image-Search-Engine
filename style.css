@@ -91,3 +91,50 @@ form button{
     object-fit: cover;
     border-radius: 5px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        margin: 60px auto 30px;
+    }
+
+    form {
+        flex-direction: column;
+        height: auto;
+    }
+
+    form input {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 16px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    form button {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 16px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    #search-result {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    #search-result img {
+        height: auto;
+    }
+
+    #show-more-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #search-result {
+        grid-template-columns: 1fr 1fr;
+    }
+}
